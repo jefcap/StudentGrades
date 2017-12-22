@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">StudentGrades</string>
+    <string name="grade_text1">Hello, %1$s! You have %1$s new messages.</string>
+    <string name="grade_text">Name: Jeff; Biology: %1$s; English: %2$s; History: %3$s; Math: %4$s</string>
 </resources>

@@ -4,7 +4,7 @@ package androidserviceexample.android.javacodegeeks.com.studentgrades;
  * Created by jeffecap on 21/12/17.
  */
 
-public class Grades {
+class Grades {
 
     private String mtoastText;
     private String mMath = "";
@@ -13,51 +13,42 @@ public class Grades {
     private String mBiology = "";
 
     //Constructor
-    public Grades(String toastText, String math, String  english, String  history, String  biology) {
-        mtoastText = toastText;
+    Grades(String math, String english, String history, String biology) {
         mMath = math;
         mEnglish = english;
         mHistory = history;
         mBiology = biology;
     }
 
-    public String getMtoastText() {
-        return mtoastText;
-    }
-
-    public void setMtoastText(String mtoastText) {
-        this.mtoastText = mtoastText;
-    }
-
-    public String getmMath() {
+    String getmMath() {
         return mMath;
     }
 
-    public void setmMath(String mMath) {
+    void setmMath(String mMath) {
         this.mMath = mMath;
     }
 
-    public String getmEnglish() {
+    String getmEnglish() {
         return mEnglish;
     }
 
-    public void setmEnglish(String mEnglish) {
+    void setmEnglish(String mEnglish) {
         this.mEnglish = mEnglish;
     }
 
-    public String getmHistory() {
+    String getmHistory() {
         return mHistory;
     }
 
-    public void setmHistory(String mHistory) {
+    void setmHistory(String mHistory) {
         this.mHistory = mHistory;
     }
 
-    public String getmBiology() {
+    String getmBiology() {
         return mBiology;
     }
 
-    public void setmBiology(String mBiology) {
+    void setmBiology(String mBiology) {
         this.mBiology = mBiology;
     }
 }
